@@ -69,24 +69,6 @@ Em modo binário o comando “WE” é aceito com ou sem <cr>
 
 ![img.png](src/main/resources/img/img.png)
 
-<b>"C" </b> - Leitura Contínua de ID dos Cartões;
-
-<b>"S" </b> - Select cartão;
-
-<b>"M" </b> - Seleciona Lista de cartões para operações;
-
-<b>"L" </b> - Login nos ultimos blocos de cada setor (L + nº do setor + ¹tipo de chave + chave);
-
-<b>"R" </b> - Lê um único bloco (00 à 0F);
-
-<b>"W" </b> - Escreve em um bloco;
-
-<b>"RV"</b> - lê unico bloco 4 bytes hexa;
-
-<b>"WV"</b> - Escreve 16 blocos 16 bytes;
-
-<b>"WM"</b> - Escreve chave mestra de login na Eeprom;
-
 > Exemplo de flag: "FF 07 80 FF";
 > Tipo de chave: 10 = 16bits(chave A) ou 32 = 64bits(chave B);
 
@@ -115,6 +97,8 @@ bytes
 
 > Apenas decrementos de valor com chave A nos dois primeiros blocos
 
+![img.png](src/main/resources/img/RFID TAG Schema.png)
+
 ### Comandos de Leitor
 ![img.png](src/main/resources/img/ComandosDeLeitor.png)
 
@@ -136,13 +120,18 @@ bytes
 
 <b>?</b> – Comando não reconhecido;
 
+
+
 ### Exemplos de uso dos Comandos
 
 ![img2.png](src/main/resources/img/img2.png)
 
+
+
 ### Login e autenticação
 
 ![img3.png](src/main/resources/img/img3.png)
+
 
 
 ### Comandos Macro
