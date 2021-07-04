@@ -97,7 +97,7 @@ bytes
 
 > Apenas decrementos de valor com chave A nos dois primeiros blocos
 
-![img.png](src/main/resources/img/RFID TAG Schema.png)
+![RFID TAG Schema.png](src/main/resources/img/RFID TAG Schema.png)
 
 ### Comandos de Leitor
 ![img.png](src/main/resources/img/ComandosDeLeitor.png)
